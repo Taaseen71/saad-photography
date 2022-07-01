@@ -1,0 +1,21 @@
+export const IMAGE_QUERY = `
+query{
+    images{
+      data{
+        attributes{
+          title
+          description
+          slug
+          createdAt
+          image{
+            data{
+              attributes{
+                url
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
