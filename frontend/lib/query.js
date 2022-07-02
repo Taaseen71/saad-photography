@@ -11,6 +11,7 @@ query{
             data{
               attributes{
                 url
+                formats
               }
             }
           }

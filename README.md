@@ -19,4 +19,6 @@ frontend:
 npx create-next-app@latest
 npm install urql
 
+
+.env file starts with process.env.NEXT_PUBLIC_BACKEND_API
 ```
